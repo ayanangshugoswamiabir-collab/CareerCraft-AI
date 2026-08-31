@@ -1,0 +1,39 @@
+{
+  "name": "careercraft-ai-backend",
+  "version": "1.0.0",
+  "description": "CareerCraft AI backend API",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "@ai-sdk/xai": "^4.0.49",
+    "@google/genai": "^2.19.0",
+    "@google/generative-ai": "^0.24.1",
+    "ai": "^7.0.84",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "google-auth-library": "^11.0.2",
+    "groq-sdk": "^1.6.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.18.0",
+    "multer": "^2.2.0",
+    "pdf-parse": "^2.4.5"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/multer": "^2.2.0",
+    "@types/node": "^24.13.3",
+    "@types/pdf-parse": "^1.1.5",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
