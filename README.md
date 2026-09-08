@@ -513,9 +513,9 @@ Grow Career
 
 # 👨‍💻 Author
 
-**ABbir**
+**Ayanangshu Goswami**
 
-Built with ❤️ using React, TypeScript, Node.js, Express, MongoDB and AI.
+Built with ❤️ using React, TypeScript, Node.js, Express, MongoDB.
 
 ---
 
